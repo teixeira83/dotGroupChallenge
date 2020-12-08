@@ -18,10 +18,13 @@
 .post-title {
     margin: var(--gap-medium) 0;
     color: #ffffff;
+    font-size: 34px;
+    font-weight: bold;
 }
 
 .post-content {
     color: #ffffff;    
+    font-size: 20px;
     width: 90vw;
     margin-bottom: var(--gap-medium);
 }

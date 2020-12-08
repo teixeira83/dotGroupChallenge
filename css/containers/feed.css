@@ -19,11 +19,14 @@
 
 .feed-title {
     margin-top: var(--gap-small);
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }
 
 .feed-content {
     width: 90vw;
+    font-size: 20px;
     margin-top: var(--gap-small);
     text-align: center;
 }

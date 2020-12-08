@@ -1,5 +1,7 @@
 .footer-title {
     color: #ffffff;
     margin: var(--gap-big) 0;
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }

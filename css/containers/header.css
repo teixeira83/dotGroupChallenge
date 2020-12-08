@@ -15,7 +15,8 @@
 
 .header-title {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 32px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -23,6 +24,7 @@
     color: #ffffff;
     display: flex;
     text-align: center;
+    font-size: 22px;
     margin-top: var(--gap-small);
 }
 
