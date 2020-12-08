@@ -3,7 +3,7 @@
 }
 
 .feed-container{
-    margin-top: var(--gap-small);
+    margin: var(--gap-small) 0;
     width: 100vw;
     display: flex;
     flex-direction: column;

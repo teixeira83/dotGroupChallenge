@@ -1,0 +1,31 @@
+.post-container {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--gap-small);
+    text-align: center;
+}
+.post-img {
+    width: 80vw;
+    height: 300px;
+    margin-top: var(--gap-small);
+    border-radius: 160px;
+    border: 15px solid black;
+    object-fit: cover;
+}
+
+.post-title {
+    margin: var(--gap-medium) 0;
+    color: #ffffff;
+}
+
+.post-content {
+    color: #ffffff;    
+    width: 90vw;
+    margin-bottom: var(--gap-medium);
+}
+
+.post-content:last-child {
+    margin-bottom: var(--gap-big);
+}

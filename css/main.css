@@ -7,3 +7,5 @@
 
 @import './containers/header.css';
 @import './containers/feed.css';
+@import './containers/post.css';
+@import './containers/footer.css';
