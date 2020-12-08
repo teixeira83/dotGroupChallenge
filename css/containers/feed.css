@@ -1,5 +1,10 @@
 .feed {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .feed-container{
@@ -12,7 +17,7 @@
 }
 
 .feed-img {
-    width: 90vw;
+    width: 80%;
     height: 205px;
     border: 10px solid var(--color-secondary); 
 }
@@ -25,8 +30,27 @@
 }
 
 .feed-content {
-    width: 90vw;
+    width: 80%;
     font-size: 20px;
     margin-top: var(--gap-small);
     text-align: center;
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+    .feed-container {
+        width: 70vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .feed {
+        flex-direction: row;
+        margin: var(--gap-big) auto;
+
+    }
+
+    .feed-container {
+        width: 30vw;
+    }
 }
