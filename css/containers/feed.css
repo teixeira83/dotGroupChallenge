@@ -1,10 +1,29 @@
 .feed {
     width: 100vw;
+}
+
+.feed-container{
+    margin-top: var(--gap-small);
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
 }
 
 .feed-img {
     width: 90vw;
     height: 205px;
+    border: 10px solid var(--color-secondary); 
+}
+
+.feed-title {
+    margin-top: var(--gap-small);
+    text-align: center;
+}
+
+.feed-content {
+    width: 90vw;
+    margin-top: var(--gap-small);
+    text-align: center;
 }
