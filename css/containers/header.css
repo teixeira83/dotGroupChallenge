@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary);
+    margin: var(--gap-small) auto;
+    
+}
+.container-text{
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.content {
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    margin-top: var(--gap-small);
+}
+
+.banner {
+    width: 100vw;
+    height: 210px;
+}
